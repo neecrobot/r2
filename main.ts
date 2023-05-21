@@ -53,8 +53,8 @@ basic.forever(function () {
             X = 0
             Y = 16 - COUNT
         }
-        POS = COUNT
         led.plot(X, Y)
+        POS = COUNT
         basic.pause(DELAY)
     }
 })
